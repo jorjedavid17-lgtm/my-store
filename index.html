@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Digital Products & Affiliate Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b132b;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            direction: ltr;
+            text-align: left;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #1c2541;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #48cae4;
+            background-color: #0b132b;
+            color: #fff;
+            box-sizing: border-box;
+        }
+        h2 {
+            text-align: center;
+            color: #48cae4;
+        }
+        .submit-btn {
+            background-color: #06d6a0;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 id="mainTitle">Digital Products & Affiliate Store</h2>
+
+        <div>
+            <h3 id="sectionTitle">+ Add New Product or Affiliate Link</h3>
+            
+            <input type="text" id="productName" placeholder="Product Name">
+            <input type="text" id="productPrice" placeholder="Price (Optional)">
+            <input type="text" id="productUrl" placeholder="Download URL or Affiliate URL">
+            <textarea id="productDesc" rows="4" placeholder="Short product description..."></textarea>
+            
+            <button class="submit-btn" id="submitBtn">Publish Product to Store</button>
+        </div>
+    </div>
+
+</body>
+</html>
